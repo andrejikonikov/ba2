@@ -1,0 +1,1 @@
+/home/andrej/studyspace/BA/viewer/build/CMakeFiles/Viewer.dir

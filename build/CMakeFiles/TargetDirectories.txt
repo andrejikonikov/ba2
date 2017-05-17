@@ -1,0 +1,1 @@
+/home/andrej/studyspace/BA/build/CMakeFiles/openniViewer.dir
