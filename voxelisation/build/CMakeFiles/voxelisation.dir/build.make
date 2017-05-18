@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/andrej/studyspace/BA/voxelisation
+CMAKE_SOURCE_DIR = /home/andrej/studyspace/ba2/voxelisation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/andrej/studyspace/BA/voxelisation/build
+CMAKE_BINARY_DIR = /home/andrej/studyspace/ba2/voxelisation/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/voxelisation.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/voxelisation.dir/flags.make
 
 CMakeFiles/voxelisation.dir/src/voxelisation.cpp.o: CMakeFiles/voxelisation.dir/flags.make
 CMakeFiles/voxelisation.dir/src/voxelisation.cpp.o: ../src/voxelisation.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/andrej/studyspace/BA/voxelisation/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/andrej/studyspace/ba2/voxelisation/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/voxelisation.dir/src/voxelisation.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/voxelisation.dir/src/voxelisation.cpp.o -c /home/andrej/studyspace/BA/voxelisation/src/voxelisation.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/voxelisation.dir/src/voxelisation.cpp.o -c /home/andrej/studyspace/ba2/voxelisation/src/voxelisation.cpp
 
 CMakeFiles/voxelisation.dir/src/voxelisation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/voxelisation.dir/src/voxelisation.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/andrej/studyspace/BA/voxelisation/src/voxelisation.cpp > CMakeFiles/voxelisation.dir/src/voxelisation.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/andrej/studyspace/ba2/voxelisation/src/voxelisation.cpp > CMakeFiles/voxelisation.dir/src/voxelisation.cpp.i
 
 CMakeFiles/voxelisation.dir/src/voxelisation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/voxelisation.dir/src/voxelisation.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/andrej/studyspace/BA/voxelisation/src/voxelisation.cpp -o CMakeFiles/voxelisation.dir/src/voxelisation.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/andrej/studyspace/ba2/voxelisation/src/voxelisation.cpp -o CMakeFiles/voxelisation.dir/src/voxelisation.cpp.s
 
 CMakeFiles/voxelisation.dir/src/voxelisation.cpp.o.requires:
 .PHONY : CMakeFiles/voxelisation.dir/src/voxelisation.cpp.o.requires
@@ -175,6 +175,6 @@ CMakeFiles/voxelisation.dir/clean:
 .PHONY : CMakeFiles/voxelisation.dir/clean
 
 CMakeFiles/voxelisation.dir/depend:
-	cd /home/andrej/studyspace/BA/voxelisation/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/andrej/studyspace/BA/voxelisation /home/andrej/studyspace/BA/voxelisation /home/andrej/studyspace/BA/voxelisation/build /home/andrej/studyspace/BA/voxelisation/build /home/andrej/studyspace/BA/voxelisation/build/CMakeFiles/voxelisation.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/andrej/studyspace/ba2/voxelisation/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/andrej/studyspace/ba2/voxelisation /home/andrej/studyspace/ba2/voxelisation /home/andrej/studyspace/ba2/voxelisation/build /home/andrej/studyspace/ba2/voxelisation/build /home/andrej/studyspace/ba2/voxelisation/build/CMakeFiles/voxelisation.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/voxelisation.dir/depend
 

@@ -1,1 +1,1 @@
-/home/andrej/studyspace/BA/voxelisation/build/CMakeFiles/voxelisation.dir
+/home/andrej/studyspace/ba2/voxelisation/build/CMakeFiles/voxelisation.dir

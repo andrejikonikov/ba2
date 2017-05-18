@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/andrej/studyspace/BA/voxelisation/src/voxelisation.cpp" "/home/andrej/studyspace/BA/voxelisation/build/CMakeFiles/voxelisation.dir/src/voxelisation.cpp.o"
+  "/home/andrej/studyspace/ba2/voxelisation/src/voxelisation.cpp" "/home/andrej/studyspace/ba2/voxelisation/build/CMakeFiles/voxelisation.dir/src/voxelisation.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

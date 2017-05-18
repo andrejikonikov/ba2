@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/andrej/studyspace/BA/voxelisation/src/voxelisation.cpp
+/home/andrej/studyspace/ba2/voxelisation/src/voxelisation.cpp
 string
 -
 iostream

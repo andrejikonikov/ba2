@@ -16,7 +16,7 @@ int main (int argc, char** argv) {
         pcl::PointCloud<pcl::PointXYZ>::Ptr cloud (new pcl::PointCloud<pcl::PointXYZ>);
         pcl::PointCloud<pcl::PointXYZ>::Ptr cloud_filtered (new pcl::PointCloud<pcl::PointXYZ>);
         // Fill in the cloud data
-        pcl::PLYReader reader;
+        pcl::PCDReader reader;
         // Replace the path below with the path where you saved your file
         reader.read<pcl::PointXYZ> (pointCloudPath, *cloud);
 
