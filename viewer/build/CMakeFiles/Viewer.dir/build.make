@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/andrej/studyspace/BA/viewer
+CMAKE_SOURCE_DIR = /home/andrej/studyspace/ba2/viewer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/andrej/studyspace/BA/viewer/build
+CMAKE_BINARY_DIR = /home/andrej/studyspace/ba2/viewer/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Viewer.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/Viewer.dir/flags.make
 
 CMakeFiles/Viewer.dir/src/viewer.cpp.o: CMakeFiles/Viewer.dir/flags.make
 CMakeFiles/Viewer.dir/src/viewer.cpp.o: ../src/viewer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/andrej/studyspace/BA/viewer/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/andrej/studyspace/ba2/viewer/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Viewer.dir/src/viewer.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Viewer.dir/src/viewer.cpp.o -c /home/andrej/studyspace/BA/viewer/src/viewer.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Viewer.dir/src/viewer.cpp.o -c /home/andrej/studyspace/ba2/viewer/src/viewer.cpp
 
 CMakeFiles/Viewer.dir/src/viewer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Viewer.dir/src/viewer.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/andrej/studyspace/BA/viewer/src/viewer.cpp > CMakeFiles/Viewer.dir/src/viewer.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/andrej/studyspace/ba2/viewer/src/viewer.cpp > CMakeFiles/Viewer.dir/src/viewer.cpp.i
 
 CMakeFiles/Viewer.dir/src/viewer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Viewer.dir/src/viewer.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/andrej/studyspace/BA/viewer/src/viewer.cpp -o CMakeFiles/Viewer.dir/src/viewer.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/andrej/studyspace/ba2/viewer/src/viewer.cpp -o CMakeFiles/Viewer.dir/src/viewer.cpp.s
 
 CMakeFiles/Viewer.dir/src/viewer.cpp.o.requires:
 .PHONY : CMakeFiles/Viewer.dir/src/viewer.cpp.o.requires
@@ -175,6 +175,6 @@ CMakeFiles/Viewer.dir/clean:
 .PHONY : CMakeFiles/Viewer.dir/clean
 
 CMakeFiles/Viewer.dir/depend:
-	cd /home/andrej/studyspace/BA/viewer/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/andrej/studyspace/BA/viewer /home/andrej/studyspace/BA/viewer /home/andrej/studyspace/BA/viewer/build /home/andrej/studyspace/BA/viewer/build /home/andrej/studyspace/BA/viewer/build/CMakeFiles/Viewer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/andrej/studyspace/ba2/viewer/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/andrej/studyspace/ba2/viewer /home/andrej/studyspace/ba2/viewer /home/andrej/studyspace/ba2/viewer/build /home/andrej/studyspace/ba2/viewer/build /home/andrej/studyspace/ba2/viewer/build/CMakeFiles/Viewer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Viewer.dir/depend
 

@@ -39,10 +39,10 @@ int main (int argc, char** argv) {
         // Create the filtering object
         pcl::ProgressiveMorphologicalFilter<pcl::PointXYZ> pmf;
         pmf.setInputCloud (cloud);
-        pmf.setMaxWindowSize (20);
+        pmf.setMaxWindowSize (9);
         pmf.setSlope (1.0f);
-        pmf.setInitialDistance (0.5f);
-        pmf.setMaxDistance (3.0f);
+        pmf.setInitialDistance (0.25f);
+        pmf.setMaxDistance (3.31f);
         pmf.extract (ground->indices);
 
         // Create the filtering object

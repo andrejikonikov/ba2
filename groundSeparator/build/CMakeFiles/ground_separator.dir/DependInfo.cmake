@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/andrej/studyspace/BA/groundSeparator/src/groundSeparator.cpp" "/home/andrej/studyspace/BA/groundSeparator/build/CMakeFiles/ground_separator.dir/src/groundSeparator.cpp.o"
+  "/home/andrej/studyspace/ba2/groundSeparator/src/groundSeparator.cpp" "/home/andrej/studyspace/ba2/groundSeparator/build/CMakeFiles/ground_separator.dir/src/groundSeparator.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

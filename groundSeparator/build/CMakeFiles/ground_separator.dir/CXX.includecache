@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/andrej/studyspace/BA/groundSeparator/src/groundSeparator.cpp
+/home/andrej/studyspace/ba2/groundSeparator/src/groundSeparator.cpp
 iostream
 -
 pcl/io/pcd_io.h

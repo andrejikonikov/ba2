@@ -22,7 +22,7 @@ void callFromThread(int id, pcl::PointCloud<pcl::PointXYZ>::Ptr cluster) {
     std::cout << "   ..1" << '\n';
     pmf.setMaxWindowSize (20);
     pmf.setSlope (1.0f);
-    pmf.setInitialDistance (0.5f);
+    pmf.setInitialDistance (0.6f);
     pmf.setMaxDistance (3.0f);
     std::cout << "   ..2" << '\n';
     pmf.extract (ground->indices);

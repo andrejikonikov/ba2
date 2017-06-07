@@ -20,10 +20,10 @@ void callFromThread(int id, pcl::PointCloud<pcl::PointXYZ>::Ptr cluster) {
     pcl::ProgressiveMorphologicalFilter<pcl::PointXYZ> pmf;
     pmf.setInputCloud (cluster);
     std::cout << "   ..1" << '\n';
-    pmf.setMaxWindowSize (20);
+    pmf.setMaxWindowSize (9);
     pmf.setSlope (1.0f);
-    pmf.setInitialDistance (0.5f);
-    pmf.setMaxDistance (3.0f);
+    pmf.setInitialDistance (0.25f);
+    pmf.setMaxDistance (3.31f);
     std::cout << "   ..2" << '\n';
     pmf.extract (ground->indices);
     std::cout << "   ..3" << '\n';
@@ -41,7 +41,7 @@ void callFromThread(int id, pcl::PointCloud<pcl::PointXYZ>::Ptr cluster) {
     string filename = s.str() + "ground.pcd";
     writer.write<pcl::PointXYZ> (filename, *cloud_filtered, false);
 
-    std::cout << "   ..4" << '\n';    
+    std::cout << "   ..4" << '\n';
 
 }
 

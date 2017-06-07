@@ -47,10 +47,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/andrej/studyspace/BA/viewer
+CMAKE_SOURCE_DIR = /home/andrej/studyspace/ba2/viewer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/andrej/studyspace/BA/viewer/build
+CMAKE_BINARY_DIR = /home/andrej/studyspace/ba2/viewer/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/Viewer.dir
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/andrej/studyspace/BA/viewer/build
 CMakeFiles/Viewer.dir/all:
 	$(MAKE) -f CMakeFiles/Viewer.dir/build.make CMakeFiles/Viewer.dir/depend
 	$(MAKE) -f CMakeFiles/Viewer.dir/build.make CMakeFiles/Viewer.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/andrej/studyspace/BA/viewer/build/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/andrej/studyspace/ba2/viewer/build/CMakeFiles  1
 	@echo "Built target Viewer"
 .PHONY : CMakeFiles/Viewer.dir/all
 
@@ -69,9 +69,9 @@ all: CMakeFiles/Viewer.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Viewer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrej/studyspace/BA/viewer/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrej/studyspace/ba2/viewer/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Viewer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrej/studyspace/BA/viewer/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrej/studyspace/ba2/viewer/build/CMakeFiles 0
 .PHONY : CMakeFiles/Viewer.dir/rule
 
 # Convenience name for target.

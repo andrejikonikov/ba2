@@ -1,1 +1,1 @@
-/home/andrej/studyspace/BA/groundSeparator2.5/build/CMakeFiles/groundSeparator2.5.dir
+/home/andrej/studyspace/ba2/groundSeparator2.5/build/CMakeFiles/groundSeparator2.5.dir

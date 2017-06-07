@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/andrej/studyspace/BA/groundSeparator
+CMAKE_SOURCE_DIR = /home/andrej/studyspace/ba2/groundSeparator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/andrej/studyspace/BA/groundSeparator/build
+CMAKE_BINARY_DIR = /home/andrej/studyspace/ba2/groundSeparator/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ground_separator.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/ground_separator.dir/flags.make
 
 CMakeFiles/ground_separator.dir/src/groundSeparator.cpp.o: CMakeFiles/ground_separator.dir/flags.make
 CMakeFiles/ground_separator.dir/src/groundSeparator.cpp.o: ../src/groundSeparator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/andrej/studyspace/BA/groundSeparator/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/andrej/studyspace/ba2/groundSeparator/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/ground_separator.dir/src/groundSeparator.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ground_separator.dir/src/groundSeparator.cpp.o -c /home/andrej/studyspace/BA/groundSeparator/src/groundSeparator.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ground_separator.dir/src/groundSeparator.cpp.o -c /home/andrej/studyspace/ba2/groundSeparator/src/groundSeparator.cpp
 
 CMakeFiles/ground_separator.dir/src/groundSeparator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ground_separator.dir/src/groundSeparator.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/andrej/studyspace/BA/groundSeparator/src/groundSeparator.cpp > CMakeFiles/ground_separator.dir/src/groundSeparator.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/andrej/studyspace/ba2/groundSeparator/src/groundSeparator.cpp > CMakeFiles/ground_separator.dir/src/groundSeparator.cpp.i
 
 CMakeFiles/ground_separator.dir/src/groundSeparator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ground_separator.dir/src/groundSeparator.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/andrej/studyspace/BA/groundSeparator/src/groundSeparator.cpp -o CMakeFiles/ground_separator.dir/src/groundSeparator.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/andrej/studyspace/ba2/groundSeparator/src/groundSeparator.cpp -o CMakeFiles/ground_separator.dir/src/groundSeparator.cpp.s
 
 CMakeFiles/ground_separator.dir/src/groundSeparator.cpp.o.requires:
 .PHONY : CMakeFiles/ground_separator.dir/src/groundSeparator.cpp.o.requires
@@ -175,6 +175,6 @@ CMakeFiles/ground_separator.dir/clean:
 .PHONY : CMakeFiles/ground_separator.dir/clean
 
 CMakeFiles/ground_separator.dir/depend:
-	cd /home/andrej/studyspace/BA/groundSeparator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/andrej/studyspace/BA/groundSeparator /home/andrej/studyspace/BA/groundSeparator /home/andrej/studyspace/BA/groundSeparator/build /home/andrej/studyspace/BA/groundSeparator/build /home/andrej/studyspace/BA/groundSeparator/build/CMakeFiles/ground_separator.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/andrej/studyspace/ba2/groundSeparator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/andrej/studyspace/ba2/groundSeparator /home/andrej/studyspace/ba2/groundSeparator /home/andrej/studyspace/ba2/groundSeparator/build /home/andrej/studyspace/ba2/groundSeparator/build /home/andrej/studyspace/ba2/groundSeparator/build/CMakeFiles/ground_separator.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ground_separator.dir/depend
 

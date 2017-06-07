@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/andrej/studyspace/BA/viewer/src/viewer.cpp" "/home/andrej/studyspace/BA/viewer/build/CMakeFiles/Viewer.dir/src/viewer.cpp.o"
+  "/home/andrej/studyspace/ba2/viewer/src/viewer.cpp" "/home/andrej/studyspace/ba2/viewer/build/CMakeFiles/Viewer.dir/src/viewer.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

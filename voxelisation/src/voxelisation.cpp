@@ -107,7 +107,7 @@ int main (int argc, char** argv) {
         std::cout << "minY=" << minY << " maxY="<< maxY << " len="<< cloudLength <<'\n';
 
         float step = 1;
-        float candidateSize = 3; // in meters???
+        float candidateSize = 3; // in meters
         int xIntervals = (maxX - minX) / step;
         int yIntervals = (maxY - minY) / step;
         int m[xIntervals][yIntervals];
@@ -215,7 +215,7 @@ int main (int argc, char** argv) {
 
         int average = accumulate( values.begin(), values.end(), 0.0)/values.size();
         int stdDev = sqrt(inner_product(values.begin(), values.end(), values.begin(), 0.0) / values.size() - average * average);
-        int treshold = average + stdDev;
+        int treshold = average + 1*stdDev;
         // int treshold = static_cast<int>(ttreshold);
         cout << "The average is" << average << "The stdDev is" << stdDev << " treshold="<< treshold << typeid(treshold).name() << endl;
 

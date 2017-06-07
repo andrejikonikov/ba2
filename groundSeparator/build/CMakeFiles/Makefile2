@@ -47,10 +47,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/andrej/studyspace/BA/groundSeparator
+CMAKE_SOURCE_DIR = /home/andrej/studyspace/ba2/groundSeparator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/andrej/studyspace/BA/groundSeparator/build
+CMAKE_BINARY_DIR = /home/andrej/studyspace/ba2/groundSeparator/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/ground_separator.dir
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/andrej/studyspace/BA/groundSeparator/build
 CMakeFiles/ground_separator.dir/all:
 	$(MAKE) -f CMakeFiles/ground_separator.dir/build.make CMakeFiles/ground_separator.dir/depend
 	$(MAKE) -f CMakeFiles/ground_separator.dir/build.make CMakeFiles/ground_separator.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/andrej/studyspace/BA/groundSeparator/build/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/andrej/studyspace/ba2/groundSeparator/build/CMakeFiles  1
 	@echo "Built target ground_separator"
 .PHONY : CMakeFiles/ground_separator.dir/all
 
@@ -69,9 +69,9 @@ all: CMakeFiles/ground_separator.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ground_separator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrej/studyspace/BA/groundSeparator/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrej/studyspace/ba2/groundSeparator/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ground_separator.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrej/studyspace/BA/groundSeparator/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrej/studyspace/ba2/groundSeparator/build/CMakeFiles 0
 .PHONY : CMakeFiles/ground_separator.dir/rule
 
 # Convenience name for target.

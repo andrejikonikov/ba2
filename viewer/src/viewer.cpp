@@ -381,6 +381,8 @@ main (int argc, char** argv)
       }
     }
 
+    p->setBackgroundColor (1, 1, 1);
+
     // Add as actor
     std::stringstream cloud_name ("vtk-");
     cloud_name << argv[vtk_file_indices.at (i)] << "-" << i;
